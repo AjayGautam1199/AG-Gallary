@@ -265,51 +265,51 @@ Sigma Template
         <div class="row">
             <div class="sigmano col-lg-8 col-md-12">
                 
-                <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
-		<input type="hidden" name="access_key" value="228d7b3d-1664-4700-8134-5d42bcc2210b">
-                <div class="col-md-6">
-               		<fieldset class="form-group">
-                        <label for="name">Your Name</label>
-                        <input type="text" class="form-control" id="name" placeholder="Write a full name">
-                  	</fieldset>
+    <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+    <input type="hidden" name="access_key" value="228d7b3d-1664-4700-8134-5d42bcc2210b">
+    <div class="col-md-6">
+        <fieldset class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Write a full name">
+        </fieldset>
                   
-                  	<fieldset class="form-group">
-                    	<label for="email">Your Email</label>
-                    	<input type="email" class="form-control" id="email" placeholder="Enter your email">
-                    	
-                  	</fieldset>
+        <fieldset class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+        </fieldset>
                     
-                    <fieldset class="form-group">
-                    	<label for="budget">Your Budget</label>
-                    	<select class="form-control" id="budget">
-                      		<option>10,000 Rs</option>
-                      		<option>20,000 Rs</option>
-                      		<option>50,000 Rs</option>
-                      		<option>1LAKH Rs</option>
-                    	</select>
-                  	</fieldset>
-                </div> 
-                <div class="col-md-6">
+        <fieldset class="form-group">
+            <label for="budget">Your Budget</label>
+            <select class="form-control" id="budget" name="budget">
+                <option>10,000 Rs</option>
+                <option>20,000 Rs</option>
+                <option>50,000 Rs</option>
+                <option>1LAKH Rs</option>
+            </select>
+        </fieldset>
+    </div> 
+    <div class="col-md-6">
                  
-                 	<fieldset class="form-group">
-                        <label for="subject">Subject</label>
-                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                  	</fieldset>
+        <fieldset class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+        </fieldset>
                     
-                  	<fieldset class="form-group">
-                    	<label for="message">Your Message</label>
-                    	<textarea class="form-control" id="message" rows="4" placeholder="Write a message"></textarea>
-                  	</fieldset>
+        <fieldset class="form-group">
+            <label for="message">Your Message</label>
+            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Write a message"></textarea>
+        </fieldset>
                   
-                  	<div class="checkbox">
-                    	<label>
-                      		<input type="checkbox"> I am not a robot.
-                    	</label>
-                  	</div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" name="not_robot"> I am not a robot.
+            </label>
+        </div>
                   
-                  	<button type="submit" class="btn btn-success btn-lg">Submit</button>
-                </div>  
-            	</form>
+        <button type="submit" class="btn btn-success btn-lg">Submit</button>
+    </div>  
+</form>
+
                 
             </div>
             
